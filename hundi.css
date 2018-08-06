@@ -8,7 +8,7 @@ body{
 	background:#5F9EA0;
 }
 .header{
-	width:30%;
+	width:50%;
 	margin:50px auto 0px;
 	color: white;
 	background:hsla(0,0%,0%,0.2);
@@ -18,22 +18,17 @@ body{
 	border-radius: 10px 10px 0px 0px;
 	padding:20px;
 }
-form{
-	width:30%;
-	margin:0px auto;
-	padding:20px;
-	border:1px solid #B0C4DE;
-	background:white;
-	border-radius:0px 0px 10px 10px;
+img{
+	width:15%;
 }
-.cont{
-	width:30%;
+form{
+	color:black;
+	width:50%;
 	margin:0px auto;
 	padding:20px;
 	border:1px solid #B0C4DE;
 	background:white;
 	border-radius:0px 0px 10px 10px;
-
 }
 .input-group{
 	margin: 10px 0px 10px 0px;
@@ -52,12 +47,12 @@ form{
 	border:1px solid gray;
 }
 .btn{
-	
 	padding:10px;
-	font-size:15px;
+	font-size:20px;
 	color:white;
 	border-radius:5px;
 	background:#5F9EA0;
+	width:20%;
 }
 .error{
 	width:92%;
@@ -66,16 +61,6 @@ form{
 	border:1px solid #a94442;
 	color:#a94442;
 	background:#f2dede;
-	border-radius: 5px;
-	text-align:left;
-}
-.error1{
-	width:92%;
-	margin:0px auto;
-	padding:10px;
-	border:1px solid #a94442;
-	color:#a94442;
-	background:rgb(141, 226, 169);
 	border-radius: 5px;
 	text-align:left;
 }

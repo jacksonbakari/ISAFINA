@@ -1,0 +1,167 @@
+ .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+.header{
+  width:60%;
+  margin:50px auto 0px;
+  color: white;
+  background:#5F9EA0;
+  border:1px solid #B0C4DE;
+  border-bottom:none;
+  border-radius: 10px 10px 0px 0px;
+  padding:20px;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    margin:5px auto 0px;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: #000;
+}
+form{
+    width:98%;
+    margin:0px auto;
+    padding:20px;
+    /*border:1px solid #B0C4DE;*/
+    background:white;
+    border-radius:0px 0px 10px 10px;
+}
+.cont{
+    width:100%;
+    margin:0px auto;
+    padding:20px;
+    border:1px solid #B0C4DE;
+    background:white;
+    border-radius:0px 0px 10px 10px;
+
+}
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label{
+    display:block;
+    text-align:center;
+    margin:10px;
+}
+.input-group input{
+    height:30px;
+    width: 93%;
+    padding:5px 10px;
+    font-size:16px;
+    border-radius:5px;
+    border:1px solid gray;
+}
+.btn{
+    
+    padding:10px;
+    font-size:15px;
+    color:white;
+    border-radius:5px;
+    background:#5F9EA0;
+}
+.error{
+    width:92%;
+    margin:0px auto;
+    padding:10px;
+    border:1px solid #a94442;
+    color:#a94442;
+    background:#f2dede;
+    border-radius: 5px;
+    text-align:left;
+}

@@ -12,7 +12,16 @@ body{
 	margin:50px auto 0px;
 	color: white;
 	background:hsla(0,0%,0%,0.2);
-	text-align: center;
+	border:1px solid #B0C4DE;
+	border-bottom:none;
+	border-radius: 10px 10px 0px 0px;
+	padding:20px;
+}
+.header1{
+	width:30%;
+	margin:50px auto 0px;
+	color: white;
+	background:hsla(0,0%,0%,0.2);
 	border:1px solid #B0C4DE;
 	border-bottom:none;
 	border-radius: 10px 10px 0px 0px;
@@ -66,16 +75,6 @@ form{
 	border:1px solid #a94442;
 	color:#a94442;
 	background:#f2dede;
-	border-radius: 5px;
-	text-align:left;
-}
-.error1{
-	width:92%;
-	margin:0px auto;
-	padding:10px;
-	border:1px solid #a94442;
-	color:#a94442;
-	background:rgb(141, 226, 169);
 	border-radius: 5px;
 	text-align:left;
 }
